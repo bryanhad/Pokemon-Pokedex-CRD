@@ -23,6 +23,30 @@
       "description": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
       "weight": "199.5 lbs",
       "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"
+    },
+    {
+      "name": "aefaef",
+      "description": "aefeafaf",
+      "weight": "123213",
+      "image": "aaefa",
+      "type": "grass",
+      "id": 4
+    },
+    {
+      "name": "Caterpie ",
+      "description": "For protection, it releases a horrible stench from the antenna on its head to drive away enemies.",
+      "weight": "6.4 lbs",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
+      "type": "grass",
+      "id": 5
+    },
+    {
+      "name": "aefaefafa",
+      "description": "aefaefa",
+      "weight": "aefaeefaef",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
+      "type": "water",
+      "id": 6
     }
   ]
 }
