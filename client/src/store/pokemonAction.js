@@ -47,4 +47,16 @@ export class PokemonAction {
             throw { err }
         }
     }
+    static async deleteById(id) {
+        try {
+            await fetch(url + `/${id}`, {
+                method: "DELETE"
+            })
+            return async (dispatch) => {
+                dispatch(await this.fetchAll())
+            }
+        } catch (err) {
+            throw {err}
+        }
+    }
 }

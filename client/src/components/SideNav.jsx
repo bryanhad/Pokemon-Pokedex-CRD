@@ -9,6 +9,7 @@ export default function SideNav({className}) {
         {name: 'Grass', to: '/grass'},
     ]
 
+
   return (
     <nav className={`p-6 bg-white border-r-2 border-slate-200 ${className}`}>
             <Link className="text-xl font-light">Pokedex</Link>
