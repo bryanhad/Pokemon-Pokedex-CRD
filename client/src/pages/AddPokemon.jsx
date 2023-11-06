@@ -27,7 +27,6 @@ export default function AddPokemon() {
     }
 
     async function handleSubmit(e) {
-        console.log(form)
         e.preventDefault()
         for (const key in form) {
             if (!form[key]) return toast.error('Please fill all the fields')
