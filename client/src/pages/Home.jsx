@@ -9,11 +9,13 @@ export default function Home() {
     const dispatch = useDispatch()
     const {type} = useParams()
     const [isLoading, setIsLoading] = useState(true)
+
+
     useEffect(() => {
         setIsLoading(true)
         async function fetchData() {
             try {
-                dispatch(await PokemonAction.fetchAll())
+                dispatch(await PokemonAction.fetchAll(type))
             } catch (err) {
                 console.log(err)
             } finally {

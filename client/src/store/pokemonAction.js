@@ -5,9 +5,10 @@ export const POKEMON_DETAIL_FETCH_BY_ID_SUCCESSFUL =
 
 let url = "http://localhost:3000/pokemon"
 export class PokemonAction {
-    static async fetchAll() {
+    static async fetchAll(type) {
+        const fetchUrl = type ? url + `?type=${type}` : url
         try {
-            const res = await fetch(url)
+            const res = await fetch(fetchUrl)
             const pokemons = await res.json()
             return (dispatch) => {
                 dispatch({ type: POKEMONS_FETCH_SUCCESSFUL, payload: pokemons })
